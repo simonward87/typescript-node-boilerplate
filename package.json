@@ -1,0 +1,25 @@
+{
+  "name": "10_typescript-and-node",
+  "version": "1.0.0",
+  "description": "TypeScript & NodeJS demo",
+  "main": "app.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "dev": "nodemon dist/app.js",
+    "start": "node dist/app.js"
+  },
+  "keywords": [],
+  "author": "Simon Ward",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/express": "^4.17.7",
+    "@types/node": "^14.6.0",
+    "nodemon": "^2.0.4"
+  }
+}

@@ -1,0 +1,13 @@
+# GENERATED
+node_modules
+dist
+
+# LOGS
+logs
+*.log
+
+# PRIVATE
+nodemon.json
+.env
+.env.test
+.DS_Store
