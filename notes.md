@@ -16,7 +16,7 @@
 10. `$ npm i -D @types/express @types/body-parser @types/node nodemon`
 11. If environment variables are required `$ touch nodemon.json`
 
-#### ./package.json
+#### package.json
 
 Set up `scripts` as desired:
 
@@ -29,7 +29,7 @@ Set up `scripts` as desired:
 },
 ```
 
-#### ./tsconfig.json
+#### tsconfig.json
 
 Configure compiler options:
 
@@ -88,7 +88,7 @@ Configure any environment variables:
 }
 ```
 
-### ./src/app.ts
+### src/app.ts
 
 Using ES6 `import` / `export` syntax, but much the same as a regular JS `app.js` file:
 
@@ -111,7 +111,7 @@ app.listen(process.env.PORT || 3000, () =>
 )
 ```
 
-### ./src/controllers/todos.ts
+### src/controllers/todos.ts
 
 Setup is very similar to traditional JS projects again — with the exception of ES6 `import` / `export` syntax, and managing types within controllers.
 
