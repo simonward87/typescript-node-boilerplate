@@ -2,7 +2,7 @@
   "name": "10_typescript-and-node",
   "version": "1.0.0",
   "description": "TypeScript & NodeJS demo",
-  "main": "app.js",
+  "main": "dist/app.js",
   "scripts": {
     "build": "tsc",
     "watch": "tsc --watch",
@@ -20,6 +20,7 @@
     "@types/body-parser": "^1.19.0",
     "@types/express": "^4.17.7",
     "@types/node": "^14.6.0",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "typescript": "^4.0.3"
   }
 }

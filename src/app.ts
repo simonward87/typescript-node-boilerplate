@@ -7,10 +7,12 @@ import todosRoutes from './routes/todos'
 
 const app = express()
 
+// MIDDLEWARE
 app.use(bodyParser.json())
 
+// ROUTES
 app.use(todosRoutes)
 
-app.listen(process.env.PORT || 3000, () =>
-  console.log(`Listening on http://localhost:${process.env.PORT || 3000}`)
-)
+const port = parseInt(process.env.PORT || '3000')
+
+app.listen(port, () => console.log(`Listening on http://localhost:${port}`))
